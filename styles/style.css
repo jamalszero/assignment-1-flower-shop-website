@@ -102,7 +102,7 @@
 
 .featured-description{
     font-size: 18px;
-    margin: 25px 0px 25px 0px;
+    margin: 25px 0px 70px 0px;
 }
 
 .featured-item-1{
@@ -157,9 +157,9 @@ a{
     color: black;
 }
 
-/* Offer */
+/* Offer / Hot Deal! */
 .offer-section-container{
-    background-color: #E554730D;
+    background-color: #E554731A;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -239,7 +239,7 @@ a{
 }
 [type="email"]{
     width: 600px;
-    padding: 12px 0px 12px 0px;
+    padding: 12px 0px 12px 7px;
     border: none;
     border-radius: 5px;
     margin-right: 5px;
