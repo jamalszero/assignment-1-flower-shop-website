@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;700&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gothic A1', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Contact Info */
+.contact-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #92F5AA;
+}
+
+.contact-info-item-container {
+    width: 550px;
+    padding: 7px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: navy;
+    font-weight: 300px;
+}
+
+/* Banner */
+.banner-container {
+    background-color: #E554731A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner-item-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    width: 1100px;
+}
+
+.banner-image-container{
+    padding-bottom: 0;
+}
+.banner-image {
+    width: 425px;
+    height: 550px;
+    margin-bottom: -5px;
+}
+
+.banner-title{
+    font-size: 45px;
+}
+
+.banner-description{
+    font-size: 16px;
+    margin: 20px 0px 20px 0px;
+}
+
+.btn-of-banner{
+    background-color: #E55473;
+    color: white;
+    border: none;
+    padding: 10px 26px;
+    border-radius: 5px;
+    
+}
