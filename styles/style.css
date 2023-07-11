@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #92F5AA;
+    background-color: purple;
 }
 
 .contact-info-item-container {
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    color: navy;
+    color: white;
     font-weight: 300px;
 }
 
@@ -66,8 +66,9 @@
     background-color: #E55473;
     color: white;
     border: none;
-    padding: 10px 26px;
+    padding: 12px 26px;
     border-radius: 5px;
+    font-size: 14px;
 
 }
 
@@ -100,7 +101,7 @@
 }
 
 .featured-description{
-    font-size: 17px;
+    font-size: 18px;
     margin: 25px 0px 25px 0px;
 }
 
@@ -156,14 +157,15 @@ a{
     color: black;
 }
 
+/* Offer */
 .offer-section-container{
     background-color: #E554730D;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 100px;
+    margin-bottom: 100px;
     padding: 70px 0px;
-    margin: ;
 }
 
 .offer-info-container{
@@ -182,4 +184,88 @@ a{
 
 .offer-image-container{
     margin-right: 100px;
+}
+
+/* Instagram */
+.instagram-title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.instagram-description{
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0px 45px 0px;
+}
+
+.instagram-image-container{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.instagram-image{
+    width: 267px;
+    height: 300;
+}
+
+/* Subscription */
+.subscription-section-container{
+    margin: auto;
+    height: 400px;
+    width: 1100px;
+    text-align: center;
+    background-image: url("../images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription-item-container{
+    padding-bottom: 50px;
+}
+
+.subscription-title{
+    font-size: 28px;
+}
+
+.subscription-description{
+    font-size: 18px;
+    margin: 15px 0px 40px 0px;
+}
+[type="email"]{
+    width: 600px;
+    padding: 12px 0px 12px 0px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+/* Footer */
+.footer-section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111010;
+    padding: 100px 0px;
+}
+.footer-info-container{
+    text-align: center;
+    color: rgb(250, 201, 201);
+}
+
+.pink-color-text{
+    color: #E55473;
+}
+
+.footer-title{
+    font-size: 25px;
+}
+.footer-description{
+    font-size: 17px;
+    margin: 15px 0px;
 }
