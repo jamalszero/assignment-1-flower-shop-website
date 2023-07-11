@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;700&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400&family=Open+Sans:ital,wght@0,400;0,700;0,800;1,700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     font-family: 'Gothic A1', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
 }
 
 /* Contact Info */
@@ -74,39 +74,40 @@
 
 
 /* Featured */
-.full-featured-section-container{
+.full-featured-section-container {
     margin-top: 150px;
 }
 
-.featured-title{
+.featured-title {
     text-align: center;
 }
 
-.featured-description{
+.featured-description {
     text-align: center;
 }
 
-.featured-container{
+.featured-container {
     display: flex;
     justify-content: center;
 }
-.featured-item-container{
+
+.featured-item-container {
     display: flex;
     justify-content: space-between;
     width: 1100px;
     align-items: center;
 }
 
-.featured-title{
+.featured-title {
     font-size: 35px;
 }
 
-.featured-description{
+.featured-description {
     font-size: 18px;
     margin: 25px 0px 70px 0px;
 }
 
-.featured-item-1{
+.featured-item-1 {
     background-color: #A7216226;
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
@@ -116,7 +117,7 @@
     padding-top: 80px;
 }
 
-.featured-item-2{
+.featured-item-2 {
     background-color: #0597A026;
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
@@ -126,7 +127,7 @@
     padding-top: 80px;
 }
 
-.featured-item-3{
+.featured-item-3 {
     background-color: #477D1126;
     border-top-left-radius: 300px;
     border-top-right-radius: 300px;
@@ -136,16 +137,17 @@
     padding-top: 80px;
 }
 
-.featured-image{
+.featured-image {
     width: 280px;
     height: 400px;
 }
-.featured-image-2{
+
+.featured-image-2 {
     width: 350px;
     height: 400px;
 }
 
-.featured-image-caption-container{
+.featured-image-caption-container {
     display: flex;
     justify-content: space-between;
     width: 870px;
@@ -154,12 +156,12 @@
     padding: 27px 0px;
 }
 
-a{
+a {
     color: black;
 }
 
 /* Offer / Hot Deal! */
-.offer-section-container{
+.offer-section-container {
     background-color: #E554731A;
     display: flex;
     justify-content: space-evenly;
@@ -169,37 +171,37 @@ a{
     padding: 70px 0px;
 }
 
-.offer-info-container{
+.offer-info-container {
     text-align: center;
     margin-left: 100px;
 }
 
-.offer-title{
+.offer-title {
     font-size: 28px;
 }
 
-.offer-description{
+.offer-description {
     font-size: 18px;
     margin: 25px 0px;
 }
 
-.offer-image-container{
+.offer-image-container {
     margin-right: 100px;
 }
 
 /* Instagram */
-.instagram-title{
+.instagram-title {
     text-align: center;
     font-size: 30px;
 }
 
-.instagram-description{
+.instagram-description {
     text-align: center;
     font-size: 18px;
     margin: 20px 0px 45px 0px;
 }
 
-.instagram-image-container{
+.instagram-image-container {
     width: 1100px;
     display: flex;
     justify-content: space-between;
@@ -207,13 +209,13 @@ a{
     margin-bottom: 100px;
 }
 
-.instagram-image{
+.instagram-image {
     width: 267px;
     height: 300;
 }
 
 /* Subscription */
-.subscription-section-container{
+.subscription-section-container {
     margin: auto;
     height: 400px;
     width: 1100px;
@@ -226,19 +228,20 @@ a{
     align-items: center;
 }
 
-.subscription-item-container{
+.subscription-item-container {
     padding-bottom: 50px;
 }
 
-.subscription-title{
+.subscription-title {
     font-size: 28px;
 }
 
-.subscription-description{
+.subscription-description {
     font-size: 18px;
     margin: 15px 0px 40px 0px;
 }
-[type="email"]{
+
+[type="email"] {
     width: 600px;
     padding: 12px 0px 12px 7px;
     border: none;
@@ -247,7 +250,7 @@ a{
 }
 
 /* Footer */
-.footer-section-container{
+.footer-section-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -255,19 +258,23 @@ a{
     padding: 120px 0px 100px 0px;
     margin-top: 50px;
 }
-.footer-info-container{
+
+.footer-info-container {
     text-align: center;
     color: rgb(250, 201, 201);
 }
 
-.pink-color-text{
+.pink-color-text {
     color: #E55473;
 }
 
-.footer-title{
+.footer-title {
     font-size: 25px;
 }
-.footer-description{
+
+.footer-description {
     font-size: 17px;
     margin: 15px 0px;
 }
+
+/* End */
