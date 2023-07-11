@@ -62,7 +62,7 @@
     margin: 20px 0px 20px 0px;
 }
 
-.btn-of-banner {
+.common-button {
     background-color: #E55473;
     color: white;
     border: none;
@@ -154,4 +154,32 @@
 
 a{
     color: black;
+}
+
+.offer-section-container{
+    background-color: #E554730D;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    padding: 70px 0px;
+    margin: ;
+}
+
+.offer-info-container{
+    text-align: center;
+    margin-left: 100px;
+}
+
+.offer-title{
+    font-size: 28px;
+}
+
+.offer-description{
+    font-size: 18px;
+    margin: 25px 0px;
+}
+
+.offer-image-container{
+    margin-right: 100px;
 }
